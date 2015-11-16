@@ -1,0 +1,39 @@
+import java.util.Date;
+
+public class Job {
+	private static int _lastID=0;
+	private int id;
+	private String title;
+	private String company;
+	private String location;
+	private String description;
+	private Date date;
+	private String categoryName;
+	
+	public 
+	
+	public int getID() {
+		return id;
+	}
+	
+	private String getName() {
+		return title;
+	}
+	
+	public String getCompany() {
+		return company;
+	}
+	
+	public String getDescription () {
+		return description;
+	}
+	
+	public String getLocation() {
+		return location;
+	}
+	
+	public String getCategory() {
+		return categoryName;
+	}
+
+}
